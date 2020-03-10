@@ -1,0 +1,22 @@
+# file: aaas.mplstyle
+# author: Carles corbi-Verge
+# description: Inspired in ggsci, colors commonly used in AAAS publication for Matplotlib figures.
+#
+# Color palette from:
+# https://cran.r-project.org/web/packages/ggsci/vignettes/ggsci.html#aaas
+
+
+axes.prop_cycle : cycler('color',['#3B4992',
+                                  '#EE0000',
+                                  '#008B45',
+                                  '#631879',
+                                  '#008280',
+                                  '#BB0021',
+                                  '#5F559B',
+                                  '#A20056',
+                                  '#808180',
+                                  '#1B1919'])
+
+
+# add caps to errorbars
+errorbar.capsize: 3

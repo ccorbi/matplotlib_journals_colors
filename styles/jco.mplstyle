@@ -1,0 +1,22 @@
+# file: jco.mplstyle
+# author: Carles corbi-Verge
+# description: Inspired in ggsci, colors commonly used in JCO publication for Matplotlib figures.
+#
+# Color palette from:
+# https://cran.r-project.org/web/packages/ggsci/vignettes/ggsci.html#jco
+
+
+axes.prop_cycle : cycler('color',['#0073C2',
+                                  '#EFC000',
+                                  '#868686',
+                                  '#CD534C',
+                                  '#7AA6DC',
+                                  '#003C67',
+                                  '#8F7700',
+                                  '#3B3B3B',
+                                  '#A73030',
+                                  '#4A6990',
+                                  ])
+
+# add caps to errorbars
+errorbar.capsize: 3

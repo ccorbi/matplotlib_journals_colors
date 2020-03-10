@@ -1,0 +1,19 @@
+# file: jama.mplstyle
+# author: Carles corbi-Verge
+# description: Inspired in ggsci, colors commonly used in JAMA publication for Matplotlib figures.
+#
+# Color palette from:
+# https://cran.r-project.org/web/packages/ggsci/vignettes/ggsci.html#jama
+
+
+axes.prop_cycle : cycler('color',['#374E55',
+                                  '#DF8F44',
+                                  '#00A1D5',
+                                  '#B24745',
+                                  '#79AF97',
+                                  '#6A6599',
+                                  '#80796B',
+                                  ])
+
+# add caps to errorbars
+errorbar.capsize: 3

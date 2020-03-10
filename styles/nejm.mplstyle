@@ -1,0 +1,19 @@
+# file: nejm.mplstyle
+# author: Carles corbi-Verge
+# description: Inspired in ggsci, colors commonly used in NEJM publication for Matplotlib figures.
+#
+# Color palette from:
+# https://cran.r-project.org/web/packages/ggsci/vignettes/ggsci.html#nejm
+
+
+axes.prop_cycle : cycler('color',['#BC3C29',
+                                  '#0072B5',
+                                  '#E18727',
+                                  '#20854E',
+                                  '#7876B1',
+                                  '#6F99AD',
+                                  '#FFDC91',
+                                  '#EE4C97',])
+
+# add caps to errorbars
+errorbar.capsize: 3

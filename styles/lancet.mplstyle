@@ -1,0 +1,20 @@
+# file: lancet.mplstyle
+# author: Carles corbi-Verge
+# description: Inspired in ggsci, colors commonly used in Lancet publication for Matplotlib figures.
+#
+# Color palette from:
+# https://cran.r-project.org/web/packages/ggsci/vignettes/ggsci.html#lancet
+
+
+axes.prop_cycle : cycler('color',['#00468B',
+                                  '#ED0000',
+                                  '#42B540',
+                                  '#0099B4',
+                                  '#925E9F',
+                                  '#FDAF91',
+                                  '#AD002A',
+                                  '#ADB6B6',
+                                  '#1B1919'])
+
+# add caps to errorbars
+errorbar.capsize: 3
